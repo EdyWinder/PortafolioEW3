@@ -11377,3 +11377,29 @@ pre {
   visibility: visible;
   opacity: 1;
 }
+
+.btn-delivery {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #25D366; /* Color verde WhatsApp */
+  color: white;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btn-delivery:hover {
+  background-color: #1ebe5d;
+  transform: scale(1.05);
+}
+
+.icono-wsp {
+  width: 24px;
+  height: 24px;
+}
+
